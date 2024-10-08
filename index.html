@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Bem-vindo ao meu portfólio! Sou um desenvolvedor apaixonado por tecnologia e design. Aqui você encontrará
+            informações sobre mim e meus projetos.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto">
+            <h3>Calculadora de IMC</h3>
+            <p>Esta aplicação calcula seu IMC com base nas informações fornecidas.</p>
+            <a class="botao" href="imc/imc.html">Acessar a Calculadora</a>
+        </div>
+        <div class="projeto">
+            <h3>Sequência de Fibonacci</h3>
+            <p>Este projeto gera a sequência de Fibonacci com base em um valor inicial.</p>
+            <a class="botao" href="fibonacci/index.html">Acessar o Projeto</a>
+        </div>
+        <div class="projeto">
+            <h3>Valores</h3>
+            <p>Pega dois valores e faz o processo de subtração e adição.</p>
+            <a class="botao" href="valores/index.html">Acessar o Projeto</a>
+        </div>
+        <div class="projeto">
+            <h3>Baskara</h3>
+            <p>Este projeto gera a fórmula de Baskara.</p>
+            <a class="botao" href="baskara/index.html">Acessar o Projeto</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/arthurcccantelle@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Portifolio-master/Portifolio/thanks.html">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Seu email" required>
+            <label for="message">Deixe sua mensagem:</label>
+            <textarea name="message" id="message" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/...">LinkedIn</a></li>
+            <li><a href="https://github.com/CCantelle">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
